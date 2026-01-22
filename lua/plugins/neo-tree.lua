@@ -9,5 +9,6 @@ return {
   config = function()
     -- Phím tắt: Space + e để đóng mở cây thư mục
     vim.keymap.set('n', '<leader>e', ':Neotree filesystem toggle left<CR>', {})
-  end
+    vim.keymap.set("n", "<leader>v", ":Neotree filesystem reveal left<CR>", {})
+end
 }
